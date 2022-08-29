@@ -7,7 +7,7 @@ class Student < User
         @knowledge = []
     end
 
-    def learn studies
-        @knowledge << studies
+    def learn sessions
+        @knowledge << sessions
     end
 end
